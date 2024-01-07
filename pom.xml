@@ -10,8 +10,13 @@
 
     <packaging>war</packaging>
 
+    <configuration>
+        <warSourceDirectory>WebContent</warSourceDirectory>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    </configuration>
+
     <properties>
-        <spring.version>5.3.14</spring.version>
+        <spring.version>5.3.6</spring.version>
     </properties>
 
     <dependencies>
