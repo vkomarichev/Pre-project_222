@@ -1,9 +1,11 @@
-package web.carDAO;
+package web.service;
 
 import web.model.Car;
 
 import java.util.List;
 
-public interface DAOImp {
+public interface CarService {
+
     public List<Car> selectCars(int num);
+
 }
